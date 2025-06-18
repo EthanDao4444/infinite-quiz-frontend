@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+  background: #fdf6f0;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #4b2e2e;
+}
+
+.flowerBox {
+  background: #fff0f0;
+  border: 2px dashed #ffb6c1;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.hash {
+  font-family: monospace;
+  color: #914d4d;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.flowerVisual {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #e9c5d1;
+}
+
+.backButton {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #914d4d;
+  font-weight: bold;
+}

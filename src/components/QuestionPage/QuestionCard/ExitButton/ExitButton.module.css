@@ -1,0 +1,63 @@
+.exitButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, filter 0.2s;
+  z-index: 1000;
+}
+
+.exitButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 100, 100, 0.8);
+}
+
+/* Moderate chaos */
+.wobble {
+  animation: hueShift 2s infinite linear;
+}
+
+/* Maximum chaos */
+.mutate {
+  animation: hueShift 0.5s infinite linear;
+  filter: contrast(180%) saturate(200%);
+}
+
+/* Shaky hands */
+.shake {
+  animation: shakeIt 0.2s infinite;
+}
+
+@keyframes hueShift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes shakeIt {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(-2px, 2px) scale(1.01);
+  }
+  50% {
+    transform: translate(2px, -2px) scale(1);
+  }
+  75% {
+    transform: translate(-1px, 1px) scale(1.01);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}

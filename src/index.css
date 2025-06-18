@@ -1,0 +1,9 @@
+/* index.css or global.css */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: black; /* or your preferred background */
+  overflow: hidden;
+}
