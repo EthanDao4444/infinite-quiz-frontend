@@ -1,7 +1,7 @@
 // src/hooks/useQuizFlow.js
 import { useEffect, useState } from "react";
 
-const API_BASE = "http://localhost:8000/quiz";
+const API_BASE = "https://infinite-quiz-backend.onrender.com/quiz";
 const ENDPOINTS = {
   INITIAL: [`${API_BASE}/first_50`, `${API_BASE}/last_50`],
   DIRTY_BATCH: `${API_BASE}/dirty_batch`,
