@@ -70,7 +70,7 @@ export default function AnswerBlock({ answer, onClick, onLoad }) {
       </mesh>
 
       <Text
-        font="/fonts/Unifont.otf"
+        font="./fonts/Unifont.otf"
         ref={textRef}
         fontSize={0.3}
         color="black"

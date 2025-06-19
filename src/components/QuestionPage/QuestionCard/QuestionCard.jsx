@@ -14,7 +14,6 @@ export default function QuestionCard({ quiz, index, onNext }) {
   const [bgColor, setBgColor] = useState(getRandomColor());
   const { isTransitioning, transitionProgress, triggerTransition } =
     useTransitionAnimation(() => onNext());
-  console.log(quiz)
   useEffect(() => {
     setBgColor(getRandomColor());
   }, [index]);
