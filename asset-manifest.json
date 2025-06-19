@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/infinite-quiz-frontend/static/css/main.225c7b7e.css",
-    "main.js": "/infinite-quiz-frontend/static/js/main.9c18fc68.js",
+    "main.js": "/infinite-quiz-frontend/static/js/main.c64e5415.js",
     "index.html": "/infinite-quiz-frontend/index.html",
     "main.225c7b7e.css.map": "/infinite-quiz-frontend/static/css/main.225c7b7e.css.map",
-    "main.9c18fc68.js.map": "/infinite-quiz-frontend/static/js/main.9c18fc68.js.map"
+    "main.c64e5415.js.map": "/infinite-quiz-frontend/static/js/main.c64e5415.js.map"
   },
   "entrypoints": [
     "static/css/main.225c7b7e.css",
-    "static/js/main.9c18fc68.js"
+    "static/js/main.c64e5415.js"
   ]
 }
